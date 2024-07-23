@@ -1,0 +1,23 @@
+@font-face {
+  font-family: founders;
+  src: url(../public/fonts/FoundersGrotesk-Semibold.ttf);
+
+}
+@font-face {
+  font-family: neue;
+  src: url(../public/fonts/NeueMontreal-Regular.ttf);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html, body {
+  height:100%;
+  width:100%
+}
